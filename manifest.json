@@ -1,0 +1,21 @@
+
+{
+  "short_name": "IR35Calc",
+  "name": "IX-ON IR35 Net Income Calculator",
+  "icons": [
+    {
+      "src": "IX-ON IR35 Calc.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "IX-ON IR35 Calc.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#007BFF",
+  "background_color": "#f0f2f5"
+}
