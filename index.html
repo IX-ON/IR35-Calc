@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IR35 Net Income Calculator</title>
+  <link rel="manifest" href="manifest.json" />
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/service-worker.js');
+      });
+    }
+  </script>
+</head>
+<body>
+  <!-- Content will be replaced by the full app content later -->
+  <h1>IR35 Calculator App</h1>
+  <p>This app works offline and can be installed on your phone.</p>
+  <script src="app.js"></script>
+</body>
+</html>
